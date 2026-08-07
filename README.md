@@ -1,2 +1,3 @@
-# PRSL-AI-Ecosystem
-Human-Centered Intelligence — Privacy by Default.
+# PRSL-AI Ecosystem
+
+> Human-Centered Intelligence — Privacy by Default.
