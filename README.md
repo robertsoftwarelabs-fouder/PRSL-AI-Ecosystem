@@ -1,89 +1,400 @@
-#PRSL-AI-Ecosystem
+# PRSL-AI Ecosystem
 
-## Architectural Foundation
+## Human Intelligence — The machine adapts to the human.
 
-PRSL-AI is the internal architectural foundation.  
-iRiel is the public-facing intelligent ecosystem built upon it.
+PRSL-AI is a modular, privacy-first, human-centered personal intelligence ecosystem designed around the human rather than around a device, cloud platform, or single AI provider.
 
-One is the structure. The other is the soul.
+At its center is **@iRiel** — the Personal Intelligence Environment.
 
 ---
 
-## Structure
+## Core Architecture
 
-PRSL-AI/
+The fundamental architectural relationship is:
+
+```text
+Human
+  ↓
+@iRiel
+  ↓
+Personal Intelligence Environment
+  ↓
+Capabilities
+  ↓
+Devices / Systems / Services
+```
+
+PRSL-AI inverts the conventional assistant architecture.
+
+Instead of:
+
+```text
+Device
+  ↓
+Cloud
+  ↓
+Account
+  ↓
+Person
+```
+
+PRSL-AI is designed around:
+
+```text
+Person
+  ↓
+@iRiel
+  ↓
+Personal Intelligence Environment
+  ↓
+Device
+```
+
+The human remains the center of the ecosystem.
+
+---
+
+## Architectural Principles
+
+PRSL-AI is guided by:
+
+```text
+Human First
+Privacy Second
+Technology Last
+```
+
+Core principles include:
+
+* Human-centered intelligence
+* Privacy by design
+* Accessibility by architecture
+* AI-agnostic intelligence
+* Modular architecture
+* Context as a first-class property
+* Memory as a controlled capability
+* Platform interoperability
+* Human control
+* Contextual continuity
+
+---
+
+## @iRiel
+
+@iRiel represents the personal intelligence environment through which the human interacts with the ecosystem.
+
+Its architecture includes capabilities such as:
+
+```text
+Identity
+Context
+Memory
+Orchestration
+Router
+Privacy
+Accessibility
+Automation
+Integration
+Intelligence
+```
+
+@iRiel is not defined by a single model, application, device, or cloud provider.
+
+---
+
+## AI-Agnostic Architecture
+
+PRSL-AI separates intelligence capabilities from the core architecture.
+
+The Router may select among:
+
+```text
+On-Device Intelligence
+Local Intelligence
+Apple Intelligence
+OpenAI
+Anthropic
+Google
+MCP
+APIs
+External Tools
+```
+
+Provider selection is an architectural decision based on capability, context, privacy, latency, cost, availability, and policy.
+
+---
+
+## Context
+
+Context Founder provides the contextual intelligence layer.
+
+It manages concepts including:
+
+```text
+Session Context
+Working Context
+Entity Context
+Interaction Context
+UI Context
+Environmental Context
+System Context
+Context Recovery
+Snapshots
+Context Versioning
+Decision History
+```
+
+Context allows @iRiel to understand the situation surrounding an interaction rather than treating every request as an isolated command.
+
+---
+
+## Memory
+
+Memory is architecturally distinct from context.
+
+```text
+Context
+= What is relevant now.
+
+Memory
+= What has been retained.
+```
+
+Memory remains governed by privacy and authorization policies.
+
+Canonical personal memory should remain under the control of the iRiel architecture rather than becoming implicitly dependent on external providers.
+
+---
+
+## iRiel Resonance
+
+iRiel Resonance represents continuity across the ecosystem.
+
+```text
+Human
+  ↕
+@iRiel
+  ↕
+Identity
+  ↕
+Context
+  ↕
+Memory
+  ↕
+Intelligence
+  ↕
+Capabilities
+  ↕
+Devices
+  ↕
+Systems
+  ↕
+Services
+```
+
+Resonance is not simply another isolated module.
+
+It represents the continuous relationship between the human and the ecosystem.
+
+---
+
+## Apple Integration
+
+Apple is treated as an integration surface rather than as the owner of the PRSL-AI architecture.
+
+The Apple Integration Layer currently documents:
+
+```text
+Apple Intelligence
+Siri
+App Intents
+AppEntity
+EntityQuery
+IndexedEntity
+Spotlight
+App Schemas
+Contextual UI
+```
+
+The relationship is:
+
+```text
+@iRiel
+  ↓
+Apple Integration Layer
+  ↓
+Apple System
+```
+
+Apple technologies provide system capabilities while the canonical identity, context, memory, policy, and intelligence architecture remains within PRSL-AI.
+
+---
+
+## Research
+
+The `Research/` directory maintains technical evidence used to inform architectural decisions.
+
+Current research areas include:
+
+```text
+Research/
+└── Apple/
+    ├── Forums.txt
+    ├── Documentation.txt
+    └── WWDC.txt
+```
+
+Research is intentionally separated from canonical architecture documentation.
+
+```text
+Evidence
+  ↓
+Analysis
+  ↓
+Architecture
+  ↓
+Implementation
+  ↓
+Validation
+```
+
+---
+
+## Repository Structure
+
+```text
+prsl-ai-ecosystem/
 │
-├── Core/                          # Canonical engineering. Intocável.
-├── Architecture/                  # Decisions, patterns, governance
-├── Founders/                      # History, principles, origin
-├── Documentation/                 # Heritage documentation
+├── Documentation/
+│   ├── Architecture-Documentation/
+│   │   ├── PRSL-AI-Architecture-Evolution.md
+│   │   ├── PRSL-AI-Architecture.md
+│   │   ├── iRiel-Core.md
+│   │   ├── Context-Founder.md
+│   │   ├── iRiel-Resonance.md
+│   │   ├── Identity.md
+│   │   ├── Memory.md
+│   │   ├── Orchestration.md
+│   │   ├── Router.md
+│   │   ├── Privacy.md
+│   │   └── Accessibility.md
+│   │
+│   ├── Domain-Documentation/
+│   │   └── README.md
+│   │
+│   ├── Apple-Integration/
+│   │   ├── Apple-Intelligence.md
+│   │   ├── Siri.md
+│   │   ├── App-Intents.md
+│   │   ├── AppEntity.md
+│   │   ├── EntityQuery.md
+│   │   ├── IndexedEntity.md
+│   │   ├── Spotlight.md
+│   │   ├── App-Schemas.md
+│   │   ├── Contextual-UI.md
+│   │   └── README.md
+│   │
+│   └── README.md
 │
-└── iRiel AI Ecosystem/            # The living organism
-    │
-    ├── iRiel AI Core AI           # ← PRSL-AI Core AI
-    ├── iRiel AI Router            # ← PRSL-AI Router  
-    ├── iRiel AI Integrations      # ← PRSL-AI Integrations
-    ├── iRiel Ecosystem            # ← PRSL-AI Ecosystem
-    ├── Context Founder/           # The soul + constitution
-    ├── iRiel Resonance/           # How it feels
-    ├── iRiel Intelligence/        # How it thinks
-    ├── iRiel Voice/               # How it speaks
-    ├── iRiel Vision/              # How it sees
-    └── ...
+├── Research/
+│   └── Apple/
+│       ├── Forums.txt
+│       ├── Documentation.txt
+│       └── WWDC.txt
+│
+├── LICENSE
+└── README.md
+```
 
 ---
 
-## Principle of Continuity
+## Documentation Philosophy
 
-**PRSL-AI → foundation → iRiel**
+PRSL-AI distinguishes between:
 
-PRSL-AI does not disappear. 
-It remains the matrix: principles, decisions, components, and documentation that sustain everything.
+```text
+Concept
+   ↓
+Architecture
+   ↓
+Design
+   ↓
+Implementation
+   ↓
+Validation
+```
 
-iRiel is the layer the world meets:
-- Users
-- Partners  
-- Developers
-- Sponsors
-- Future customers
+Architectural documentation must not be interpreted as proof that a capability has already been implemented.
 
-They know: `iRiel AI`, `iRiel Ecosystem`, `iRiel Intelligence`  
-They don't need to know the internal machinery of `PRSL-AI`.
-
-The old documentation remains valid.  
-In fact, it becomes more important.  
-It proves iRiel did not appear from nowhere.  
-It is a traceable evolution of architecture.
+Implementation status must be supported by verifiable repository evidence.
 
 ---
 
-## Two Layers of Language
+## Current Direction
 
-**Internal / Architecture Language: PRSL-AI**
-- Architecture
-- Governance  
-- Foundational Engineering
-- Internal Systems
-- Research
-- Infrastructure
+The ecosystem is evolving incrementally.
 
-**Public / Product Language: iRiel**
-- Intelligence
-- Experience
-- Ecosystem
-- Devices
-- Users
-- Partners
-- Future Sponsors
+The current architectural direction is:
+
+```text
+Repository
+   ↓
+Architecture Mapping
+   ↓
+Gap Analysis
+   ↓
+Target Architecture
+   ↓
+Incremental Implementation
+   ↓
+Validation
+```
+
+The architecture is designed to evolve without becoming dependent on a single technology provider.
 
 ---
 
-## Founder Note
+## Vision
 
-This structure honors heritage while enabling evolution.
-We do not erase the past to build the future.
-We grow on top of it.
+PRSL-AI aims to establish a new model of personal computing in which intelligence is organized around the human.
 
-— Robert Software Labs
+The long-term relationship is:
 
+```text
+Human
+  ↓
+@iRiel
+  ↓
+Personal Intelligence Environment
+  ↓
+Intelligence
+  +
+Context
+  +
+Memory
+  +
+Privacy
+  +
+Accessibility
+  ↓
+Capabilities
+  ↓
+Every Device
+  ↓
+Every System
+  ↓
+Every Service
+```
 
+The objective is not to create another conventional AI assistant.
+
+The objective is to create a **personal intelligence environment that adapts technology to the human.**
+
+---
+
+## Core Principle
+
+> **Human Intelligence — The machine adapts to the human.**
+
+**PRSL-AI Ecosystem**  
+**Robert Software Labs — 2026**
