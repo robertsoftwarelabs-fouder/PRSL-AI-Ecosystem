@@ -1,4 +1,4 @@
-# PRSL-AI
+#iRiel-AI-Ecosystem
 
 ## Architectural Foundation
 
