@@ -1,0 +1,386 @@
+# WWDC Research
+
+## Purpose
+
+This file records technical research derived from Apple's Worldwide Developers Conference (WWDC) sessions and related Apple developer materials relevant to the PRSL-AI ecosystem.
+
+WWDC research provides insight into:
+
+* Apple's architectural direction;
+* framework evolution;
+* recommended development patterns;
+* new platform capabilities;
+* system integration opportunities.
+
+WWDC content is treated as a technical reference and must be validated against available SDKs, documentation, and observed platform behavior.
+
+---
+
+## Research Scope
+
+WWDC research may include:
+
+```text
+Apple Intelligence
+Siri
+App Intents
+AppEntity
+EntityQuery
+IndexedEntity
+Spotlight
+App Schemas
+Contextual UI
+Swift
+SwiftUI
+Foundation Frameworks
+Accessibility
+Privacy
+System Integration
+Developer Tools
+```
+
+---
+
+## Source Classification
+
+WWDC findings should be classified as:
+
+```text
+Announcement
+Technical Explanation
+Recommended Pattern
+Experimental Capability
+Available API
+Future Direction
+Observed Behavior
+Validated Implementation
+```
+
+A WWDC presentation describing a capability does not automatically mean that the capability is available for production use.
+
+---
+
+## Research Record Format
+
+Future WWDC findings should preferably follow:
+
+```text
+Year:
+Session:
+Technology:
+Platform:
+Source:
+Key Concept:
+Technical Finding:
+Availability:
+Validation:
+Architectural Impact:
+Status:
+```
+
+---
+
+## WWDC and Architecture
+
+WWDC sessions often describe Apple's intended platform direction.
+
+The relationship is:
+
+```text
+WWDC Session
+      ↓
+Platform Understanding
+      ↓
+Technical Analysis
+      ↓
+Architecture Evaluation
+      ↓
+PRSL-AI Decision
+```
+
+PRSL-AI should adopt patterns when they align with its own architectural principles.
+
+---
+
+## Apple Intelligence Research
+
+WWDC research related to Apple Intelligence should evaluate:
+
+```text
+System Intelligence
+On-Device Processing
+Privacy Architecture
+Context Understanding
+Model Integration
+Developer APIs
+Capability Exposure
+```
+
+Apple Intelligence is considered a potential intelligence capability within PRSL-AI.
+
+It is not the architectural center.
+
+```text
+Apple Intelligence
+        ↓
+Integration Surface
+        ↓
+iRiel Core
+        ↓
+Router
+        ↓
+Capability
+```
+
+---
+
+## Siri Research
+
+WWDC Siri research should investigate:
+
+```text
+Natural Language Interaction
+Intent Resolution
+Context Awareness
+System Integration
+Personal Requests
+Action Execution
+```
+
+The architectural question is not only:
+
+"What can Siri execute?"
+
+but:
+
+"How can Siri participate as an interaction surface for @iRiel?"
+
+---
+
+## App Intents Research
+
+WWDC sessions provide important guidance for:
+
+```text
+Intent Design
+Parameter Modeling
+Entity Integration
+System Discovery
+Shortcuts
+Siri Integration
+Spotlight Integration
+```
+
+Research should evaluate how App Intents map to:
+
+```text
+iRiel Capability
+       ↓
+App Intent
+       ↓
+Apple System Surface
+```
+
+---
+
+## AppEntity Research
+
+WWDC research should analyze:
+
+```text
+Entity Modeling
+System Representation
+Identity
+Display Information
+Resolution
+Discovery
+```
+
+The Apple entity representation should remain a projection of the canonical iRiel domain.
+
+---
+
+## Context Research
+
+WWDC provides insight into how Apple platforms expose contextual information.
+
+Relevant areas include:
+
+```text
+Current Activity
+User Interaction
+Application State
+Entity References
+System Context
+```
+
+These findings should be evaluated against Context Founder.
+
+```text
+Apple Context Signals
+        ↓
+Context Founder
+        ↓
+Unified Context
+        ↓
+@iRiel
+```
+
+---
+
+## Privacy Research
+
+WWDC privacy sessions should be analyzed for:
+
+```text
+Data Processing
+On-Device Execution
+Permissions
+User Control
+Data Exposure
+System Boundaries
+```
+
+The PRSL-AI principle remains:
+
+```text
+More Capability
+      ≠
+More Access
+```
+
+---
+
+## Accessibility Research
+
+WWDC accessibility sessions should inform:
+
+```text
+Inclusive Design
+Assistive Technologies
+Alternative Interaction
+Voice Interaction
+Visual Accessibility
+Cognitive Accessibility
+```
+
+Accessibility findings should contribute to the broader PRSL-AI human-centered architecture.
+
+---
+
+## Platform Evolution Tracking
+
+WWDC research should track changes over time.
+
+```text
+WWDC Release
+      ↓
+New Capability
+      ↓
+SDK Availability
+      ↓
+Implementation Evaluation
+      ↓
+Architecture Impact
+```
+
+Historical decisions should remain traceable.
+
+---
+
+## Research Validation
+
+WWDC findings should be validated through:
+
+```text
+Official Documentation
+        +
+SDK Availability
+        +
+Platform Testing
+        +
+Repository Evidence
+```
+
+A WWDC announcement alone does not prove implementation capability.
+
+---
+
+## Research vs Implementation
+
+The distinction remains:
+
+```text
+WWDC Knowledge
+      ≠
+Implemented Feature
+```
+
+The implementation lifecycle is:
+
+```text
+Research
+   ↓
+Architecture
+   ↓
+Development
+   ↓
+Testing
+   ↓
+Validation
+```
+
+---
+
+## Architectural Impact
+
+WWDC findings may result in:
+
+```text
+No Change
+Documentation Update
+New Research Task
+Architecture Adjustment
+Implementation Requirement
+Compatibility Requirement
+Deprecated Approach
+```
+
+Each impact should be evaluated independently.
+
+---
+
+## Future Expansion
+
+The WWDC research file may later be expanded into structured session records:
+
+```text
+WWDC/
+├── WWDC2026/
+│   ├── Apple-Intelligence.txt
+│   ├── App-Intents.txt
+│   ├── Siri.txt
+│   └── Accessibility.txt
+```
+
+The current file structure remains suitable for initial research collection.
+
+---
+
+## Objective
+
+WWDC research provides PRSL-AI with awareness of Apple's platform evolution while preserving architectural independence.
+
+The intended relationship is:
+
+```text
+Apple Vision
+      ↓
+Technical Understanding
+      ↓
+Validated Integration
+      ↓
+PRSL-AI Architecture
+```
+
+**WWDC reveals Apple's direction. PRSL-AI decides how that direction fits into the personal intelligence ecosystem.**
