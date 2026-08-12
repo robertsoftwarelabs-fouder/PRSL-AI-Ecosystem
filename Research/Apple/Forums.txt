@@ -1,0 +1,263 @@
+# Apple Developer Forums Research
+
+## Purpose
+
+This file records relevant technical findings, observations, questions, and implementation evidence gathered from Apple Developer Forums.
+
+Forum discussions are treated as **supporting technical evidence**, not as canonical specifications.
+
+---
+
+## Research Scope
+
+Relevant areas include:
+
+* Apple Intelligence
+* Siri
+* App Intents
+* AppEntity
+* EntityQuery
+* IndexedEntity
+* Spotlight
+* App Schemas
+* Contextual UI
+* App Intents framework behavior
+* Entity resolution
+* System integration
+* Accessibility
+* Platform and SDK compatibility
+
+---
+
+## Evidence Classification
+
+Forum findings should be classified as:
+
+```text
+Observed
+Reported
+Discussed
+Experimental
+Validated
+Unverified
+Resolved
+```
+
+A forum response should not be treated as authoritative solely because it comes from a participant with apparent platform expertise.
+
+---
+
+## Research Record Format
+
+Future findings should preferably follow this structure:
+
+```text
+Date:
+Technology:
+Platform / SDK:
+Source:
+Question / Problem:
+Observation:
+Finding:
+Validation:
+Architectural Impact:
+Status:
+```
+
+---
+
+## Source Reliability
+
+Forum information should generally be evaluated against:
+
+```text
+Official Apple Documentation
+        ↓
+WWDC Technical Material
+        ↓
+Observed Platform Behavior
+        ↓
+Apple Developer Forums
+```
+
+When a forum discussion contradicts official documentation, the discrepancy should be explicitly recorded and independently verified.
+
+---
+
+## Important Research Areas
+
+### App Intents
+
+Investigate:
+
+```text
+Intent Discovery
+Intent Donation
+Parameter Resolution
+Entity Resolution
+System Invocation
+Availability
+```
+
+### AppEntity
+
+Investigate:
+
+```text
+Entity Identity
+Display Representation
+Entity Resolution
+System References
+Cross-Context Usage
+```
+
+### EntityQuery
+
+Investigate:
+
+```text
+Query Resolution
+Identifier Lookup
+Suggested Entities
+Dynamic Resolution
+Failure Handling
+```
+
+### IndexedEntity
+
+Investigate:
+
+```text
+Indexing
+Entity Discovery
+System Search
+Index Updates
+Privacy Boundaries
+```
+
+### Spotlight
+
+Investigate:
+
+```text
+Entity Discovery
+Search Integration
+Deep Linking
+Contextual Entry Points
+System Interaction
+```
+
+### Siri / Apple Intelligence
+
+Investigate:
+
+```text
+System Understanding
+Intent Resolution
+Context Transfer
+Entity References
+Availability
+Platform Restrictions
+```
+
+### Contextual UI
+
+Investigate:
+
+```text
+Current UI State
+Selected Entity
+Interaction Context
+Context Propagation
+System Context
+Reference Resolution
+```
+
+---
+
+## Research Discipline
+
+Forum findings should not be copied directly into canonical architecture documents without analysis.
+
+The preferred flow is:
+
+```text
+Forum Discussion
+      ↓
+Technical Observation
+      ↓
+Independent Verification
+      ↓
+Finding
+      ↓
+Architectural Analysis
+      ↓
+Canonical Documentation
+```
+
+---
+
+## Unresolved Questions
+
+This section should contain questions that remain open after research.
+
+```text
+[Add unresolved Apple integration questions here]
+```
+
+Unresolved questions should remain explicitly marked rather than being converted into assumptions.
+
+---
+
+## Validated Findings
+
+This section should contain findings that have been independently verified.
+
+```text
+[Add validated findings here]
+```
+
+Each validated finding should reference its original source and validation method.
+
+---
+
+## Architectural Impact
+
+Forum research may result in:
+
+```text
+No Architectural Change
+Documentation Update
+Implementation Change
+Compatibility Requirement
+New Experiment
+New Research Task
+```
+
+A forum discussion alone does not constitute an architectural decision.
+
+---
+
+## Maintenance
+
+This file should evolve as Apple platform behavior changes.
+
+When a finding becomes obsolete:
+
+```text
+Current Finding
+      ↓
+Platform Change
+      ↓
+Revalidation
+      ↓
+Updated Finding
+```
+
+Historical findings should be preserved when they provide useful architectural context.
+
+---
+
+## Principle
+
+**Apple Developer Forums are an evidence source for understanding platform behavior—not the source of truth for PRSL-AI architecture.**
