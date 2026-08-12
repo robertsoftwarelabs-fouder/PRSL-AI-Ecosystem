@@ -1,0 +1,395 @@
+# Apple Documentation Research
+
+## Purpose
+
+This file records technical research derived from official Apple documentation relevant to the PRSL-AI ecosystem.
+
+Official Apple documentation is treated as the **primary external technical reference** for Apple APIs, frameworks, capabilities, availability, and platform requirements.
+
+---
+
+## Research Scope
+
+Research may include:
+
+```text
+Apple Intelligence
+Siri
+App Intents
+AppEntity
+EntityQuery
+IndexedEntity
+Spotlight
+App Schemas
+Contextual UI
+Swift / SwiftUI
+iOS
+iPadOS
+macOS
+watchOS
+visionOS
+Accessibility
+Privacy
+System Integration
+```
+
+---
+
+## Source Classification
+
+Documentation research should distinguish between:
+
+```text
+API Reference
+Framework Documentation
+Technology Overview
+Developer Guide
+Human Interface Guidance
+Platform Availability
+Release Notes
+Technical Notes
+Sample Code
+```
+
+Each source type provides different levels of implementation detail.
+
+---
+
+## Research Record Format
+
+Future findings should preferably follow:
+
+```text
+Date:
+Technology:
+Framework:
+Platform / SDK:
+Apple Documentation:
+Topic:
+Observation:
+Finding:
+Availability:
+Architectural Impact:
+Status:
+```
+
+---
+
+## Primary Source Principle
+
+For Apple-specific implementation questions, official documentation should normally be consulted before secondary sources.
+
+```text
+Apple Documentation
+        ↓
+Technical Interpretation
+        ↓
+Implementation Verification
+        ↓
+PRSL-AI Architecture
+```
+
+Secondary sources may help explain unclear behavior but should not silently override the official API contract.
+
+---
+
+## API Contract Research
+
+For every relevant API, research should identify:
+
+```text
+Purpose
+Inputs
+Outputs
+Protocols
+Types
+Required Conformance
+Availability
+Platform Restrictions
+Permissions
+Lifecycle
+Failure Conditions
+Deprecation Status
+```
+
+This is particularly important for App Intents and entity-related APIs.
+
+---
+
+## Availability
+
+Apple APIs are frequently version-dependent.
+
+Research should record:
+
+```text
+Minimum OS Version
+Minimum SDK Version
+Supported Platforms
+Device Requirements
+Availability Annotations
+Deprecated Versions
+```
+
+A capability should not be considered universally available merely because it exists in current documentation.
+
+---
+
+## App Intents Research
+
+Relevant documentation areas include:
+
+```text
+AppIntent
+AppIntentConfiguration
+Parameter
+IntentResult
+ProvidesDialog
+OpensIntent
+AppShortcuts
+EntityQuery
+```
+
+Research should determine how these capabilities map onto the PRSL-AI integration architecture.
+
+---
+
+## AppEntity Research
+
+Documentation research should cover:
+
+```text
+AppEntity
+TypeDisplayRepresentation
+DisplayRepresentation
+Entity Identifier
+Default Query
+Entity Resolution
+```
+
+The Apple-facing entity model must remain a projection of the canonical iRiel domain.
+
+---
+
+## EntityQuery Research
+
+Research should evaluate:
+
+```text
+Entity Lookup
+Identifier Resolution
+Suggested Entities
+Search
+Dynamic Resolution
+Failure Handling
+```
+
+The objective is to establish reliable translation between Apple references and canonical iRiel entities.
+
+---
+
+## IndexedEntity Research
+
+Research should cover:
+
+```text
+Entity Indexing
+Index Lifecycle
+Index Updates
+Entity Discovery
+System Search
+Availability
+```
+
+Indexed representations must remain subject to PRSL-AI privacy and exposure policies.
+
+---
+
+## Spotlight Research
+
+Relevant areas include:
+
+```text
+Searchable Content
+Entity Discovery
+Indexing
+Deep Links
+System Navigation
+Interaction Entry Points
+```
+
+Spotlight should be considered a discovery surface rather than the owner of iRiel entities.
+
+---
+
+## App Schemas Research
+
+Documentation research should investigate:
+
+```text
+Schema Definition
+Entity Representation
+Relationships
+Actions
+System Understanding
+Compatibility
+Versioning
+```
+
+The canonical domain remains independent from Apple's schema representation.
+
+---
+
+## Contextual UI Research
+
+Research should investigate how Apple frameworks expose or consume contextual information associated with:
+
+```text
+Current Application
+Current View
+Selected Entity
+Interaction State
+Available Actions
+System Context
+```
+
+Contextual UI findings should feed into Context Founder without creating a second canonical context system.
+
+---
+
+## Siri and Apple Intelligence
+
+Research should distinguish between:
+
+```text
+System Discovery
+Intent Resolution
+Entity Resolution
+Contextual Understanding
+Action Execution
+```
+
+Apple Intelligence should be treated as an Apple capability rather than as the architectural center of PRSL-AI.
+
+---
+
+## Privacy Research
+
+Apple documentation should be evaluated for requirements involving:
+
+```text
+Permissions
+Data Access
+Indexing
+System Exposure
+User Authorization
+Data Processing
+Sensitive Information
+```
+
+The architectural principle remains:
+
+```text
+Availability
+    ≠
+Authorization
+```
+
+---
+
+## Accessibility Research
+
+Relevant documentation may include:
+
+```text
+VoiceOver
+Accessibility APIs
+Assistive Technologies
+Dynamic Type
+Reduce Motion
+Alternative Interaction
+Accessibility Semantics
+```
+
+Accessibility capabilities should be evaluated as part of the broader PRSL-AI human-interface architecture.
+
+---
+
+## Version Tracking
+
+Important documentation changes should be recorded when they affect architecture or implementation.
+
+```text
+Previous API Behavior
+        ↓
+Apple Platform Update
+        ↓
+Documentation Change
+        ↓
+Impact Analysis
+        ↓
+PRSL-AI Validation
+```
+
+This prevents outdated assumptions from remaining embedded in the architecture.
+
+---
+
+## Documentation vs Observed Behavior
+
+Official documentation describes the intended API contract.
+
+Actual platform behavior may occasionally differ.
+
+Therefore:
+
+```text
+Documented Behavior
+        +
+Observed Behavior
+        ↓
+Verification
+        ↓
+Validated Finding
+```
+
+Discrepancies should be explicitly documented rather than silently resolved through assumptions.
+
+---
+
+## Architectural Impact
+
+Documentation research may result in:
+
+```text
+No Change
+Documentation Update
+Architecture Update
+Implementation Requirement
+Compatibility Constraint
+Deprecation
+New Research Task
+```
+
+A documented Apple capability does not automatically become an implementation requirement.
+
+---
+
+## Maintenance
+
+This file should be updated when:
+
+* Apple introduces relevant APIs;
+* APIs change;
+* APIs are deprecated;
+* platform availability changes;
+* new integration constraints are discovered;
+* documentation materially changes an existing architectural assumption.
+
+Historical findings should be preserved when useful for understanding architectural evolution.
+
+---
+
+## Principle
+
+**Official Apple documentation defines the external platform contract. PRSL-AI defines how that contract is incorporated into its own architecture.**
