@@ -1,5 +1,11 @@
 # PRSL-AI Ecosystem
 
+The public-facing iRiel site is available as a dependency-free static experience in `index.html`. To preview it locally:
+
+```bash
+python3 -m http.server 8000
+```
+
 ## Human Intelligence — The machine adapts to the human.
 
 PRSL-AI is a modular, privacy-first, human-centered personal intelligence ecosystem designed around the human rather than around a device, cloud platform, or single AI provider.
